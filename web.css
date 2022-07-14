@@ -45,7 +45,7 @@ img{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.texts{
+.texts  {
     width: 90%;
     color: #fff;
     position: absolute;
@@ -54,7 +54,6 @@ img{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-
 .text-box h1{
     font-size: 62px;
 }
