@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/b64b15f548.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Multi-page responsive website</title>
+        <link rel="stylesheet" href="web.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="sectionHome">
+        <nav class="navbar navbar-expand-lg navbar-light navbg fixed-top shadow">
+            <a href="web.html"><img class="logo" src="https://images.static-collegedunia.com/public/college_data/images/logos/1474635356iiit%20main%20logo.png?tr=w-72,h-80,c-force"></a>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link active navitem text-white" onclick="display('sectionHome')">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link navitem text-white" onclick="display('sectionAbout')">About</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionCourse')">Course</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionblog')">Blog</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionContact')">Contact Us</a>
+              </div>
+            </div>
+          </nav>
+        <section class="header">
+            <div class="text-box">
+                <h1>RGUKT IIIT ONGOLE</h1>
+                <p>RGUKT ONGOLE's motto is to empower the rural youth minds and help them succeed in their career.<br> Step into RGUKT and collect tons of memories and life lessons.
+                </p>
+
+                <a href="" class="hero-btn">Visit us to know more</a>
+            </div>
+        </section>
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>All courses related to Engineering.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Pre University Courses</h3>
+                    <p>The 6-year integrated course starts with the first two years of PUC.This has all the basic subjects needed for the further engineering.
+                         The subjects include Mathematics, Physics, Chemistry. Our college offers IT as an extra credit subject for all the students at the entry level itself.
+                        Based on the credits you score and interest in subjects you choose your branch for further Engineering.</p>
+                </div>
+                 <div class="course-col">
+                    <h3>Engineering Courses</h3>
+                    <p>In Engineering we offer 7 branches, students can select their branches based on their interest.
+                        The 7 branches include Computer Science Engineering(CSE), Electronics and Communication Engineering(ECE), Mechanical Engineering(ME),
+                        Civil Engineering(CE),Chemical Engineering(Chem), Metallurgical and Material Engineering(MME),Electrical and Electronics Engineering(EEE).
+                    </p>
+                 </div>    
+            </div>
+        </section>
+        <section class="campus">
+            <h1>Autonomous University</h1>
+            <p>Run by the State Government for the rural youth of AP.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/29/2020/11/3/Academic%20block%20of%20Rajiv%20Gandhi%20University%20of%20Knowledge%20Technologies%20RK%20Valley%20Campus%20Kadapa_Campus-view.jpg">
+                    <div class="layer">
+                        <h3>NUZVID</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="https://rguktrkv.ac.in/images/rkvlogo.png">
+                    <div class="layer">
+                        <h3>IDUPULAPAYA</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="https://static.zollege.in/public/college_data/images/appImage/1586850491cover.jpg?tr=h-250,w-400,c-force">
+                    <div class="layer">
+                        <h3>SRIKAKULAM</h3>
+                    </div>
+                </div>
+            </div>        
+        </section>
+        <section class="facilities">
+            <h1>Facilities</h1>
+            <p>Our campus has a huge number of facilities.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="https://www.christs.cam.ac.uk/sites/default/files/inline-images/Christ%27s%20College%2C%20Cambridge%20library%206.jpg">
+                    <h3>Well-equipped Library</h3>
+                </div>
+                <div class="facilities-col">
+                    <img src="https://live.staticflickr.com/2566/3914667659_6e4308ba63_z.jpg">
+                    <h3>Spacious Playground</h3>
+                </div>
+                <div class="facilities-col">
+                    <img src="https://edtimes.in/wp-content/uploads/2019/06/CANTEEN.jpg">
+                    <h3>Open Canteen</h3>
+                </div>
+            </div>
+        </section>
+        <section class="lab">
+            <h1>Laboratories</h1>
+            <p>Our campus has Well-equipped laboratories.</p>
+            <div class="row">
+            <div class="lab-col">
+                <img src="https://www.towson.edu/cla/images/class-headphones-m.jpg">
+                <h3>Computer Lab</h3>
+            </div>
+            <div class="lab-col">
+                <img src="https://bitesizebio.com/wp-content/uploads/2019/12/Lab.jpg">
+                <h3>Chemistry Lab</h3>
+            </div>
+            <div class="lab-col">
+                <img src="https://wip.tezcommerce.com:3304/admin/module/25/Physics%20Lab.jpeg">
+                <h3>Physics Lab</h3>
+            </div> 
+            </div>
+        </section>
+        <section class="lab">
+            <h1>Extra-Curricular Activities</h1>
+            <p>Our campus has various extra-curricular activities.</p>
+            <div class="row">
+            <div class="lab-col">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvlP2pBk6kcvl_wiDLDmRvOEao05l4LaKrA&usqp=CAU">
+                <h3>Dance</h3>
+            </div>
+            <div class="lab-col">
+                <img src="https://th.bing.com/th/id/R.4f8f1f416545f48cf0fe7b834f1a4bd4?rik=26ODpSlfmewspg&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0803%2f6413%2farticles%2fMusic-Room-Decorating-Ideas_blogpic_600x.jpg%3fv%3d1548433427&ehk=7doio%2fokqqsEuXXFwMPxMpGYRXO%2b6zPwZxtdx2I1iZI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+                <h3>Music</h3>
+            </div>
+            <div class="lab-col">
+                <img src="https://im.whatshot.in/img/2019/Oct/yog-gokul-cropped-1-1571655892.jpg">
+                <h3>Yoga</h3>
+            </div> 
+            </div>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Learn.Share.Grow</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- contact us page-->
+    <div id="sectionContact">
+        <nav class="navbar navbar-expand-lg navbar-light navbg fixed-top shadow">
+            <a href="web.html"><img class="logo" src="https://images.static-collegedunia.com/public/college_data/images/logos/1474635356iiit%20main%20logo.png?tr=w-72,h-80,c-force"></a>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link active navitem text-white" onclick="display('sectionHome')">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link navitem text-white" onclick="display('sectionAbout')">About</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionCourse')">Course</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionblog')">Blog</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionContact')">Contact Us</a>
+              </div>
+            </div>
+          </nav>
+        <section class="sub-header">
+            <h1>Contact US</h1>
+         </section>
+ 
+         <section class="contact">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30752.873697139166!2d79.97193505!3d15.532275000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b026702523703%3A0xdf2f98c00e7db4ce!2sPernametta%20Rural%2C%20Andhra%20Pradesh%20523225!5e0!3m2!1sen!2sin!4v1657743912626!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </section>
+ 
+         <section class="contact-us">
+             <div class="row">
+               <div class="contact-col">
+                 <div>
+                   <i class="fa fa-home"></i>
+                   <span>
+                     <h5> SSN Engineering college</h5>
+                     <p>Ongole,Andhra Pradesh,India</p>
+                   </span>
+                 </div>
+                 <div>
+                   <i class="fa fa-phone"></i>
+                   <span>
+                     <h5> +91 1234567890</h5>
+                     <p>Monday to Saturday, 10AM to 6PM</p>
+                   </span>
+                 </div>
+                 <div>
+                   <i class="fa fa-envelope-o"></i>
+                   <span>
+                     <h5> rguktong@gmail.com</h5>
+                     <p>Email us your query</p>
+                   </span>
+                 </div>
+               </div>
+               <div class="contact-col">
+                 <form action="form.php" method="post">
+                   <input type="text" name="name" placeholder="Enter your name" required>
+                   <input type="email" name="email" placeholder="Enter your email" required>
+                   <input type="text" name="subject" placeholder="Enter your subject" required>
+                   <textarea rows="10" name="message" placeholder="Enter message" required></textarea>
+                   <button type="submit" class="hero-btn red-btn">Send Message</button>
+                 </form>
+                </div>
+             </div>
+         </section>
+         <section class="footer">
+             <h3>About Us</h3> <p>Learn.Share.Grow</p>           
+             <div class="icons">
+                 <i class="fa-brands fa-facebook"></i>
+                 <i class="fa-brands fa-twitter"></i>
+                 <i class="fa-brands fa-instagram"></i>
+                 <i class="fa-brands fa-linkedin"></i>
+             </div>
+ 
+         </section>
+    </div>
+    <!-- course page -->
+    <div id="sectionCourse">
+        <nav class="navbar navbar-expand-lg navbar-light navbg fixed-top shadow">
+            <a href="web.html"><img class="logo" src="https://images.static-collegedunia.com/public/college_data/images/logos/1474635356iiit%20main%20logo.png?tr=w-72,h-80,c-force"></a>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link active navitem text-white" onclick="display('sectionHome')">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link navitem text-white" onclick="display('sectionAbout')">About</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionCourse')">Course</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionblog')">Blog</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionContact')">Contact Us</a>
+              </div>
+            </div>
+          </nav>
+          <section class="sub-header">
+            <h1>Our Courses</h1>
+         </section>
+
+          <section class="course">         
+            <div class="row">
+                <div class="course-col">
+                    <h3>Pre University Courses</h3>
+                    <p>The 6-year integrated course starts with the first two years of PUC.This has all the basic subjects needed for the further engineering.
+                         The subjects include Mathematics, Physics, Chemistry. Our college offers IT as an extra credit subject for all the students at the entry level itself.
+                        Based on the credits you score and interest in subjects you choose your branch for further Engineering.</p>
+                </div>
+                 <div class="course-col">
+                    <h3>Engineering Courses</h3>
+                    <p>In Engineering we offer 7 branches, students can select their branches based on their interest.
+                        The 7 branches include Computer Science Engineering(CSE), Electronics and Communication Engineering(ECE), Mechanical Engineering(ME),
+                        Civil Engineering(CE),Chemical Engineering(Chem), Metallurgical and Material Engineering(MME),Electrical and Electronics Engineering(EEE).
+                    </p>
+                 </div>    
+            </div>
+        </section>
+       
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Learn.Share.Grow</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </section>
+    </div>
+
+    <!-- About us page-->
+    <div id="sectionAbout">
+        <nav class="navbar navbar-expand-lg navbar-light navbg fixed-top shadow">
+            <a href="web.html"><img class="logo" src="https://images.static-collegedunia.com/public/college_data/images/logos/1474635356iiit%20main%20logo.png?tr=w-72,h-80,c-force"></a>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link active navitem text-white" onclick="display('sectionHome')">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link navitem text-white" onclick="display('sectionAbout')">About</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionCourse')">Course</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionblog')">Blog</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionContact')">Contact Us</a>
+              </div>
+            </div>
+          </nav>
+          <section class="sub-header">
+            <h1>About US</h1>
+         </section>
+         <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>RGUKT UNIVERSITY</h1>
+                    <p>RGUKT's motto is to empower the rural youth minds and help them succeed in their career.Step into RGUKT and collect tons of memories and life lessons. Started by Y.S Rajasekhar Reddy in the year 2008.
+                        First branches were in Idupulapaya and Nuzvid. Further two more branches were added in Srikakulam and Ongole.
+                        Learn.Share.Grow.
+                   </p>
+                   <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col"><img src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2015/12/10/103233462-GettyImages-463765347-1.1910x1000.jpg?v=1449774088"></div>
+            </div>            
+        </section>
+        <section class="footer">
+            <h3>About Us</h3> <p>Learn.Share.Grow</p>           
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </section>
+    </div>
+    <!-- blog page-->
+    <div id="sectionblog">
+        <nav class="navbar navbar-expand-lg navbar-light navbg fixed-top shadow">
+            <a href="web.html"><img class="logo" src="https://images.static-collegedunia.com/public/college_data/images/logos/1474635356iiit%20main%20logo.png?tr=w-72,h-80,c-force"></a>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link active navitem text-white" onclick="display('sectionHome')">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link navitem text-white" onclick="display('sectionAbout')">About</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionCourse')">Course</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionblog')">Blog</a>
+                <a class="nav-link navitem text-white" onclick="display('sectionContact')">Contact Us</a>
+              </div>
+            </div>
+          </nav>
+          <section class="sub-header">
+            <h1>Our Certificates</h1>
+         </section>
+         <section class="blog">
+            <img src="https://media.istockphoto.com/photos/mortar-and-degree-picture-id891698738?k=20&m=891698738&s=612x612&w=0&h=xJXeIorODn4FHhtsJ5KAkMG41FSyxGOH8S_ujIp6iYM=">
+            <p> Graduation is the awarding of a diploma to a student by an educational institution.
+                It may also refer to the ceremony that is associated with it.
+                 The date of the graduation ceremony is often called graduation day.
+                  The graduation ceremony is also sometimes called: commencement, convocation or invocation. <br></p>
+                  <p>Usually the ceremony and name apply to university degrees (Associate's, Bachelor's, Master's, and Doctoral degrees).
+                  In a graduation ceremony at the college and university level, the presiding officer or another authorized person formally confers degrees upon candidates, either individually or en masse, even though graduates may physically receive their diploma later at a smaller college or departmental ceremony, or simply receive their diploma through the mail.
+                  Ceremonies often include a procession of some of the academic staff and candidates and a valediction.</p><p>The academic staff will usually wear an academic dress at the ceremony, as will the trustees (if applicable) and the degree candidates. Graduates can be referred to by their year of graduation.
+                  Ceremonies for graduating students date from the first universities in Europe in the twelfth century. At that time Latin was the language of scholars. A universitas was a guild of masters (such as MAs) with licence to teach. "Degree" and "graduate" come from gradus, meaning "step". The first step was admission to a bachelor's degree.
+                   The second step was the masters step, giving the graduate admission to the universitas and license to teach. </p><p>Typical dress for graduation is gown and hood, or hats adapted from the daily dress of university staff in the Middle Ages, which was in turn based on the attire worn by medieval clergy.
+
+                  The tradition of wearing graduation hats in Sweden has been in place since the mid-eighteenth century. The cap is typically a white sailor hat with a black or dark blue band around it, a crown motif, and a black peak at the front. The graduation hat tradition was initially adopted by students at Uppsala University. The headgear then became popular across several other European nations as well.
+                 </p>
+        </section>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Learn.Share.Grow</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+        </section>
+    </div>
+
+
+
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    </body>
+</html>
+
